@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+        @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+
+        * { 
+        font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif;
+        }
+
+        body {
+            background: #A5B6EE;
+        }
+
+        .logo {
+            position: absolute;
+            width: 244px;
+            left: 518px;
+            top: 72px;
+        }
+        .app {
+            position: absolute;
+            width: 400px;
+            height: 360px;
+            left: 440px;
+            top: 180px;
+            border-radius: 16px;
+
+            background: linear-gradient(144.07deg, #5572BB 2.13%, #374B7C 102.97%);
+
+            box-shadow: 20px 20px 60px 10px rgba(55, 75, 124, 0.4);
+        }
+
+        .app_title {
+            margin: 48px 0 23px 0;
+           text-align: center;
+            color: #FFFFFF;
+        }
+
+        hr { 
+        width: 312px;
+        color: #3D538A;
+        }
+
+        .app_timer {
+            padding: 33px 58px 40px 58px;
+        }
+
+        .app_hrs, .app_min, .app_sec {
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 14px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #A5B6EE;
+        
+        }
+        
+        .app_hrs, .app_min {
+            margin-right: 79px;
+        }
+
+        .app_hrs
+      
+    </style>
+</head>
+<body>
+    <h1>
+        <img class="logo" src="./img/weniv-logo.png" alt="위니브 로고">
+    </h1>
+    
+    <article class="app">
+        <h2 class="app_title">TIMER</h2>
+        <hr>
+        <div class="app_timer">
+            <span class="app_hrs">HRS</span>
+            <span class="app_min">MIN</span>
+            <span class="app_sec">SEC</span>
+        </div>
+       
+
+    </article>
+</body>
+</html>
